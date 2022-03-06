@@ -4,6 +4,20 @@ The Anythink Market backend is Node web app written with [Express](https://expre
 
 ## Getting started
 
+### Dependencies
+
+Install MongoDB:
+`docker run --name mongo -p 27017:27017 -d mongo`
+
+Set MongoDB connection string as an environment variable:
+`export MONGODB_URI=mongodb://localhost:27017`
+
+Install yarn:
+`brew install yarn`
+
+Install node modules with yarn:
+`yarn install`
+
 To start the app use: `./start.sh` from the backend directory.
 
 Make sure your DB is up and running.
